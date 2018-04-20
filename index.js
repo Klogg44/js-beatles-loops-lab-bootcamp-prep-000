@@ -10,8 +10,8 @@ function johnLennonFacts(array) {
   let i = 0
   let newarray = []
   while (i < array.length) {
-    i++
     newarray.push(array[i] + "!!!")
+    i++
   }
   return newarray
 }
